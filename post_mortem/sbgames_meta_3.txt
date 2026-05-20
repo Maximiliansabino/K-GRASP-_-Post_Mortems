@@ -1,0 +1,89 @@
+Projeto: Dolmen
+Decisão: Sci-fi Souls-like
+Dimensão: Produto
+Racional: Unir subgêneros populares.
+Impacto: Atração de publisher internacional.
+
+---
+Projeto: Heavy Metal Machines
+Decisão: F2P com foco em eSports
+Dimensão: Marketing
+Racional: Modelo de negócio sustentável a longo prazo.
+Impacto: Comunidade internacional ativa por anos.
+
+---
+Projeto: Ballistic Overkill
+Decisão: Pay-to-Play em Shooter Online
+Dimensão: Marketing
+Racional: Diferencial em relação aos F2P cheios de hacks.
+Impacto: Sucesso moderado e estável na Steam.
+
+---
+Projeto: Taverna
+Decisão: Simulador de Gestão
+Dimensão: Produto
+Racional: Focar em nicho de "tycoon" games.
+Impacto: Público fiel e mecânicas profundas.
+
+---
+Projeto: No Heroes Here
+Decisão: Tower Defense Cooperativo
+Dimensão: Equipe
+Racional: Jogo focado em party play.
+Impacto: Diversão garantida em feiras como PAX e BGS.
+
+---
+Projeto: Eliosi's Hunt
+Decisão: Twin-stick shooter 3D
+Dimensão: Desenvolvimento
+Racional: Uso de Unreal Engine para fidelidade visual.
+Impacto: Gráficos de alta qualidade.
+
+---
+Projeto: Galaxy of Pen & Paper
+Decisão: Ambientação Sci-fi
+Dimensão: Produto
+Racional: Expandir o universo da franquia.
+Impacto: Boa recepção, mas com comparações com o antecessor.
+
+---
+Projeto: Star Vikings
+Decisão: Quebra-cabeças com tema viking
+Dimensão: Produto
+Racional: Inovar em subgênero de estratégia.
+Impacto: Gameplay único e divertido.
+
+---
+Projeto: Alkimya
+Decisão: Sistema de Alquimia Baseado em Misturas
+Dimensão: Desenvolvimento
+Racional: Criar profundidade no sistema de magias.
+Impacto: Complexidade interessante para RPGistas.
+
+---
+Projeto: Relic Hunters Zero
+Decisão: Open Source no Lançamento
+Dimensão: Marketing
+Racional: Estimular a comunidade e modding.
+Impacto: Milhões de jogadores e base sólida para sequências.
+
+---
+Projeto: Dandara: Trials of Fear
+Decisão: Atualização Gratuita com Novo Conteúdo
+Dimensão: Marketing
+Racional: Revitalizar o interesse no jogo original.
+Impacto: Retorno aos holofotes da mídia especializada.
+
+---
+Projeto: Dogchild
+Decisão: Vencer o prêmio PlayStation Talents
+Dimensão: Recursos
+Racional: Conseguir suporte da Sony.
+Impacto: Publicação direta no PS4.
+
+---
+Projeto: Starlit Adventures
+Decisão: Jogo de Aventura Vertical para Mobile
+Dimensão: Produto
+Racional: Controles simplificados para touch.
+Impacto: Dezenas de milhões de downloads.

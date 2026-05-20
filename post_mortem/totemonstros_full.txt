@@ -1,0 +1,20 @@
+Projeto: ToteMonstros
+---
+Decisão: Escuta Ativa nos Testes
+Especialista: Daniel Martins
+Dimensão: Equipe
+Racional: Valor fundamental de ouvir os jogadores durante testes exaustivos.
+Impacto: Refinamento das mecânicas sociais e criativas.
+
+---
+Decisão: Iteração Rápida de Protótipos
+Especialista: Geraldo Xexéo
+Dimensão: Desenvolvimento
+Racional: Capacidade de modificar componentes rapidamente com base no feedback.
+Impacto: Evolução do protótipo acadêmico para produto comercial.
+
+---
+Decisão: Transposição para Produto Comercial via Estrela
+Dimensão: Organização
+Racional: Enfrentar as exigências de produção em larga escala e custos.
+Impacto: Publicação nacional e sucesso de público.

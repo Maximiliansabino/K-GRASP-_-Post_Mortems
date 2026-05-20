@@ -1,0 +1,18 @@
+Projeto: Mangue Runner
+---
+Decisão: Ciclo de Desenvolvimento Ultra-Rápido (52h)
+Dimensão: Organização
+Racional: Restrição de tempo para evento específico de desenvolvimento.
+Impacto: Necessidade de foco absoluto em mecânicas core.
+
+---
+Decisão: Uso de Arte 2D Simples
+Dimensão: Produto
+Racional: Garantir que o jogo fosse finalizado no prazo de 52h.
+Impacto: Estilo visual consistente, apesar da simplicidade.
+
+---
+Decisão: Temática Socioambiental (Fiocruz)
+Dimensão: Produto
+Racional: Alinhamento com os objetivos da instituição parceira.
+Impacto: Relevância social e facilidade de distribuição institucional.

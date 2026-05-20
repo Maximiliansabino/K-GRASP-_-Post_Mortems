@@ -1,0 +1,725 @@
+@prefix kgrasp: <http://cos.ufrj.br/kgrasp/games#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+kgrasp:especialista_caraciolo_ec398ef4 a kgrasp:Especialista ;
+    rdfs:label "Caraciolo"@pt ;
+    kgrasp:tomouDecisao kgrasp:decisao_foco_em_time_management_efc83903 .
+
+kgrasp:especialista_carvalho_afd029d4 a kgrasp:Especialista ;
+    rdfs:label "Carvalho"@pt ;
+    kgrasp:tomouDecisao kgrasp:decisao_mec_nica_de_predador_marinho_8007aa47 .
+
+kgrasp:especialista_daniel_martins_d6802b9d a kgrasp:Especialista ;
+    rdfs:label "Daniel Martins"@pt ;
+    kgrasp:tomouDecisao kgrasp:decisao_integra_o_f_sico_digital_9858f9e3 .
+
+kgrasp:especialista_daniel_martins_da362c42 a kgrasp:Especialista ;
+    rdfs:label "Daniel Martins"@pt ;
+    kgrasp:tomouDecisao kgrasp:decisao_escuta_ativa_nos_testes_99a69260 .
+
+kgrasp:especialista_ferreira_j_nior_077b24bb a kgrasp:Especialista ;
+    rdfs:label "Ferreira Júnior"@pt ;
+    kgrasp:tomouDecisao kgrasp:decisao_autopublica_o_77767dcd .
+
+kgrasp:especialista_fuchter_1dcb2cbc a kgrasp:Especialista ;
+    rdfs:label "Fuchter"@pt ;
+    kgrasp:tomouDecisao kgrasp:decisao_uso_de_unity_6a10f1bd .
+
+kgrasp:especialista_geraldo_xex_o_de485fd4 a kgrasp:Especialista ;
+    rdfs:label "Geraldo Xexéo"@pt ;
+    kgrasp:tomouDecisao kgrasp:decisao_itera_o_r_pida_de_prot_tipos_deef2b0f .
+
+kgrasp:especialista_lacerda_f2676eb4 a kgrasp:Especialista ;
+    rdfs:label "Lacerda"@pt ;
+    kgrasp:tomouDecisao kgrasp:decisao_desenvolvimento_em_48h_game_jam_6ee24010 .
+
+kgrasp:especialista_marcondes_6cc752fd a kgrasp:Especialista ;
+    rdfs:label "Marcondes"@pt ;
+    kgrasp:tomouDecisao kgrasp:decisao_gamifica_o_de_matem_tica_6cedf8cc .
+
+kgrasp:projeto_dolmen_3a094cca a kgrasp:Projeto ;
+    rdfs:label "Dolmen"@pt ;
+    kgrasp:conteveDecisao kgrasp:decisao_ambienta_o_sci_fi_f5d7fc5f,
+        kgrasp:decisao_atualiza_o_gratuita_com_novo_conte_do_5800bf64,
+        kgrasp:decisao_f2p_com_foco_em_esports_a897a2b8,
+        kgrasp:decisao_jogo_de_aventura_vertical_para_mobile_cf0d0736,
+        kgrasp:decisao_open_source_no_lan_amento_46089b76,
+        kgrasp:decisao_pay_to_play_em_shooter_online_cb56b5e0,
+        kgrasp:decisao_quebra_cabe_as_com_tema_viking_99e60a6f,
+        kgrasp:decisao_sci_fi_souls_like_aba97744,
+        kgrasp:decisao_simulador_de_gest_o_1b1d7c5a,
+        kgrasp:decisao_sistema_de_alquimia_baseado_em_misturas_75aaf713,
+        kgrasp:decisao_tower_defense_cooperativo_fcc97fd0,
+        kgrasp:decisao_twin_stick_shooter_3d_0abd06fc,
+        kgrasp:decisao_vencer_o_pr_mio_playstation_talents_6afdb5ea .
+
+kgrasp:projeto_influ_ncia_92c51467 a kgrasp:Projeto ;
+    rdfs:label "Influência"@pt ;
+    kgrasp:conteveDecisao kgrasp:decisao_desenvolvimento_em_ambiente_acad_mico_p_e9c6c815,
+        kgrasp:decisao_dilemas_ticos_como_mec_nica_principal_1ec10387,
+        kgrasp:decisao_est_tica_sombria_e_s_ria_a14cf047 .
+
+kgrasp:projeto_insect_2ee66a5d a kgrasp:Projeto ;
+    rdfs:label "Insect"@pt ;
+    kgrasp:conteveDecisao kgrasp:decisao_autopublica_o_77767dcd,
+        kgrasp:decisao_campanha_de_financiamento_coletivo_a487cffc,
+        kgrasp:decisao_desenvolvimento_em_48h_game_jam_6ee24010,
+        kgrasp:decisao_est_tica_pixel_art_e1b0b961,
+        kgrasp:decisao_foco_em_time_management_efc83903,
+        kgrasp:decisao_gamifica_o_de_matem_tica_6cedf8cc,
+        kgrasp:decisao_integra_o_f_sico_digital_9858f9e3,
+        kgrasp:decisao_jogo_de_mem_ria_tem_tico_8021ac7a,
+        kgrasp:decisao_mec_nica_de_predador_marinho_8007aa47,
+        kgrasp:decisao_movimenta_o_sem_gravidade_05236f1e,
+        kgrasp:decisao_parceria_com_compositor_barry_leitch_24771e29,
+        kgrasp:decisao_rpg_de_mesa_adaptado_f4549882,
+        kgrasp:decisao_uso_de_unity_6a10f1bd .
+
+kgrasp:projeto_interceptadores_276f54d7 a kgrasp:Projeto ;
+    rdfs:label "Interceptadores"@pt ;
+    kgrasp:conteveDecisao kgrasp:decisao_foco_em_gamifica_o_de_conte_do_complexo_2752e5a3,
+        kgrasp:decisao_testes_massivos_com_70_alunos_c672ff25,
+        kgrasp:decisao_uso_de_realidade_virtual_vr_para_educa_e46cf5f5 .
+
+kgrasp:projeto_mangue_runner_6f44bc6f a kgrasp:Projeto ;
+    rdfs:label "Mangue Runner"@pt ;
+    kgrasp:conteveDecisao kgrasp:decisao_ciclo_de_desenvolvimento_ultra_r_pido_5_28b85d0d,
+        kgrasp:decisao_tem_tica_socioambiental_fiocruz_ff8030fc,
+        kgrasp:decisao_uso_de_arte_2d_simples_e35575e8 .
+
+kgrasp:projeto_toren_cc766998 a kgrasp:Projeto ;
+    rdfs:label "Toren"@pt ;
+    kgrasp:conteveDecisao kgrasp:decisao_co_op_local_213c732a,
+        kgrasp:decisao_dificuldade_elevada_e141068b,
+        kgrasp:decisao_elementos_roguelite_c485782f,
+        kgrasp:decisao_foco_em_puzzles_e_explora_o_3a484b66,
+        kgrasp:decisao_gr_ficos_3d_em_shmup_39a91339,
+        kgrasp:decisao_homenagem_aos_8_bits_184004bc,
+        kgrasp:decisao_inspira_o_em_donkey_kong_country_0fb3191f,
+        kgrasp:decisao_loop_de_gameplay_curto_dd6b360c,
+        kgrasp:decisao_mitologia_tupi_guarani_f0eb9417,
+        kgrasp:decisao_sistema_de_tempo_real_rel_gio_9568f9b3,
+        kgrasp:decisao_terror_psicol_gico_em_2d_b2472ea0,
+        kgrasp:decisao_transi_o_para_metroidvania_d864b1bf,
+        kgrasp:decisao_uso_de_lei_rouanet_253aa6ff .
+
+kgrasp:projeto_totemonstros_20483493 a kgrasp:Projeto ;
+    rdfs:label "ToteMonstros"@pt ;
+    kgrasp:conteveDecisao kgrasp:decisao_escuta_ativa_nos_testes_99a69260,
+        kgrasp:decisao_itera_o_r_pida_de_prot_tipos_deef2b0f,
+        kgrasp:decisao_transposi_o_para_produto_comercial_via_62f607ab .
+
+<http://cos.ufrj.br/kgrasp/games/populated> a owl:Ontology ;
+    rdfs:label "K-GRASP Grafo Populado"@pt ;
+    rdfs:comment "Grafo de conhecimento populado a partir de post-mortems de projetos de jogos."@pt ;
+    owl:imports <http://cos.ufrj.br/kgrasp/games> .
+
+kgrasp:decisao_ambienta_o_sci_fi_f5d7fc5f a kgrasp:Decisao ;
+    rdfs:label "Ambientação Sci-fi"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_boa_recep_o_mas_com_compara_es_com_o_1fd4a0bd ;
+    kgrasp:justificadaPor kgrasp:racional_expandir_o_universo_da_franquia_b1264be0 ;
+    kgrasp:pertenceADimensao kgrasp:Produto .
+
+kgrasp:decisao_atualiza_o_gratuita_com_novo_conte_do_5800bf64 a kgrasp:Decisao ;
+    rdfs:label "Atualização Gratuita com Novo Conteúdo"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_retorno_aos_holofotes_da_m_dia_especiali_2f2bc15c ;
+    kgrasp:justificadaPor kgrasp:racional_revitalizar_o_interesse_no_jogo_original_e27cb15a ;
+    kgrasp:pertenceADimensao kgrasp:Marketing .
+
+kgrasp:decisao_campanha_de_financiamento_coletivo_a487cffc a kgrasp:Decisao ;
+    rdfs:label "Campanha de Financiamento Coletivo"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_comunidade_engajada_e_recursos_garantido_04ec8435 ;
+    kgrasp:justificadaPor kgrasp:racional_validar_o_mercado_e_garantir_verba_inici_7e119378 .
+
+kgrasp:decisao_ciclo_de_desenvolvimento_ultra_r_pido_5_28b85d0d a kgrasp:Decisao ;
+    rdfs:label "Ciclo de Desenvolvimento Ultra-Rápido (52h)"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_necessidade_de_foco_absoluto_em_mec_nica_6de456a3 ;
+    kgrasp:justificadaPor kgrasp:racional_restri_o_de_tempo_para_evento_espec_fic_9a51ac44 ;
+    kgrasp:pertenceADimensao kgrasp:Organizacao .
+
+kgrasp:decisao_co_op_local_213c732a a kgrasp:Decisao ;
+    rdfs:label "Co-op Local"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_muito_elogiado_em_reviews_51de8de7 ;
+    kgrasp:justificadaPor kgrasp:racional_fortalecer_experi_ncia_de_arcade_9ba0f540 ;
+    kgrasp:pertenceADimensao kgrasp:Produto .
+
+kgrasp:decisao_desenvolvimento_em_ambiente_acad_mico_p_e9c6c815 a kgrasp:Decisao ;
+    rdfs:label "Desenvolvimento em Ambiente Acadêmico (PUC Minas)"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_limita_o_de_tempo_devido_ao_calend_rio_516e96f5 ;
+    kgrasp:justificadaPor kgrasp:racional_acesso_a_infraestrutura_e_mentoria_sem_c_53e2e779 .
+
+kgrasp:decisao_dificuldade_elevada_e141068b a kgrasp:Decisao ;
+    rdfs:label "Dificuldade Elevada"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_divisor_de_guas_na_cr_tica_10a9ec4e ;
+    kgrasp:justificadaPor kgrasp:racional_resgatar_desafio_de_jogos_nes_5b645363 ;
+    kgrasp:pertenceADimensao kgrasp:Produto .
+
+kgrasp:decisao_dilemas_ticos_como_mec_nica_principal_1ec10387 a kgrasp:Decisao ;
+    rdfs:label "Dilemas Éticos como Mecânica Principal"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_profundidade_narrativa_mas_impactos_das_9dfe54d1 ;
+    kgrasp:justificadaPor kgrasp:racional_focar_no_aprendizado_de_tica_atrav_s_da_b350fa45 ;
+    kgrasp:pertenceADimensao kgrasp:Produto .
+
+kgrasp:decisao_elementos_roguelite_c485782f a kgrasp:Decisao ;
+    rdfs:label "Elementos Roguelite"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_parceria_com_merge_games_b4064b53 ;
+    kgrasp:justificadaPor kgrasp:racional_aumentar_o_tempo_de_jogo_e_rejogabilidad_b7cfb025 ;
+    kgrasp:pertenceADimensao kgrasp:Produto .
+
+kgrasp:decisao_est_tica_pixel_art_e1b0b961 a kgrasp:Decisao ;
+    rdfs:label "Estética Pixel Art"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_sucesso_internacional_imediato_37777d9b ;
+    kgrasp:justificadaPor kgrasp:racional_nostalgia_e_baixo_custo_de_arte_e6d4f1a0 ;
+    kgrasp:pertenceADimensao kgrasp:Produto .
+
+kgrasp:decisao_est_tica_sombria_e_s_ria_a14cf047 a kgrasp:Decisao ;
+    rdfs:label "Estética Sombria e Séria"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_atmosfera_imersiva_que_contribui_para_o_d294b988 ;
+    kgrasp:justificadaPor kgrasp:racional_refletir_o_peso_das_escolhas_ticas_608ca9d2 ;
+    kgrasp:pertenceADimensao kgrasp:Produto .
+
+kgrasp:decisao_f2p_com_foco_em_esports_a897a2b8 a kgrasp:Decisao ;
+    rdfs:label "F2P com foco em eSports"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_comunidade_internacional_ativa_por_anos_23349917 ;
+    kgrasp:justificadaPor kgrasp:racional_modelo_de_neg_cio_sustent_vel_a_longo_pr_38fc95bf ;
+    kgrasp:pertenceADimensao kgrasp:Marketing .
+
+kgrasp:decisao_foco_em_gamifica_o_de_conte_do_complexo_2752e5a3 a kgrasp:Decisao ;
+    rdfs:label "Foco em Gamificação de Conteúdo Complexo"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_melhora_significativa_na_reten_o_de_con_6ad60360 ;
+    kgrasp:justificadaPor kgrasp:racional_tornar_o_aprendizado_de_temas_dif_ceis_m_7d5f6208 ;
+    kgrasp:pertenceADimensao kgrasp:Produto .
+
+kgrasp:decisao_foco_em_puzzles_e_explora_o_3a484b66 a kgrasp:Decisao ;
+    rdfs:label "Foco em Puzzles e Exploração"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_sucesso_de_cr_tica_no_lan_amento_a7dfe494 ;
+    kgrasp:justificadaPor kgrasp:racional_fugir_do_combate_gen_rico_em_jogos_de_te_b0a85b60 ;
+    kgrasp:pertenceADimensao kgrasp:Produto .
+
+kgrasp:decisao_gr_ficos_3d_em_shmup_39a91339 a kgrasp:Decisao ;
+    rdfs:label "Gráficos 3D em Shmup"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_visual_impressionante_para_a_poca_2c1ff659 ;
+    kgrasp:justificadaPor kgrasp:racional_demonstrar_capacidade_t_cnica_da_engine_6829abb1 ;
+    kgrasp:pertenceADimensao kgrasp:Desenvolvimento .
+
+kgrasp:decisao_homenagem_aos_8_bits_184004bc a kgrasp:Decisao ;
+    rdfs:label "Homenagem aos 8-bits"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_alta_fidelidade_de_p_blico_2a65b73b ;
+    kgrasp:justificadaPor kgrasp:racional_focar_em_nicho_de_retro_gaming_481d3c37 ;
+    kgrasp:pertenceADimensao kgrasp:Produto .
+
+kgrasp:decisao_inspira_o_em_donkey_kong_country_0fb3191f a kgrasp:Decisao ;
+    rdfs:label "Inspiração em Donkey Kong Country"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_polimento_excepcional_reconhecido_global_8fb0910b ;
+    kgrasp:justificadaPor kgrasp:racional_preencher_lacuna_de_jogos_de_plataforma_6b19c6ed ;
+    kgrasp:pertenceADimensao kgrasp:Produto .
+
+kgrasp:decisao_jogo_de_aventura_vertical_para_mobile_cf0d0736 a kgrasp:Decisao ;
+    rdfs:label "Jogo de Aventura Vertical para Mobile"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_dezenas_de_milh_es_de_downloads_baafba5a ;
+    kgrasp:justificadaPor kgrasp:racional_controles_simplificados_para_touch_80e32b85 ;
+    kgrasp:pertenceADimensao kgrasp:Produto .
+
+kgrasp:decisao_jogo_de_mem_ria_tem_tico_8021ac7a a kgrasp:Decisao ;
+    rdfs:label "Jogo de Memória Temático"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_diferencial_de_mercado_63287dcb ;
+    kgrasp:justificadaPor kgrasp:racional_valorizar_cultura_ind_gena_f2a085a3 ;
+    kgrasp:pertenceADimensao kgrasp:Produto .
+
+kgrasp:decisao_loop_de_gameplay_curto_dd6b360c a kgrasp:Decisao ;
+    rdfs:label "Loop de Gameplay Curto"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_sucesso_de_vendas_e_cr_tica_em_plataform_4adaff38 ;
+    kgrasp:justificadaPor kgrasp:racional_focar_em_one_hit_kill_e_replayability_4a3e5c5f ;
+    kgrasp:pertenceADimensao kgrasp:Produto .
+
+kgrasp:decisao_mitologia_tupi_guarani_f0eb9417 a kgrasp:Decisao ;
+    rdfs:label "Mitologia Tupi-Guarani"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_reconhecimento_nacional_e_internacional_9d314bb0 ;
+    kgrasp:justificadaPor kgrasp:racional_identidade_cultural_forte_b3ded4bf ;
+    kgrasp:pertenceADimensao kgrasp:Produto .
+
+kgrasp:decisao_movimenta_o_sem_gravidade_05236f1e a kgrasp:Decisao ;
+    rdfs:label "Movimentação sem gravidade"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_jogo_aclamado_pela_cr_tica_ac2195cc ;
+    kgrasp:justificadaPor kgrasp:racional_criar_desafio_nico_de_explora_o_c099c4f3 ;
+    kgrasp:pertenceADimensao kgrasp:Desenvolvimento .
+
+kgrasp:decisao_open_source_no_lan_amento_46089b76 a kgrasp:Decisao ;
+    rdfs:label "Open Source no Lançamento"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_milh_es_de_jogadores_e_base_s_lida_para_649301b1 ;
+    kgrasp:justificadaPor kgrasp:racional_estimular_a_comunidade_e_modding_5e9bc821 ;
+    kgrasp:pertenceADimensao kgrasp:Marketing .
+
+kgrasp:decisao_parceria_com_compositor_barry_leitch_24771e29 a kgrasp:Decisao ;
+    rdfs:label "Parceria com Compositor Barry Leitch"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_forte_apelo_nost_lgico_e_marketing_espon_92c84d45 ;
+    kgrasp:justificadaPor kgrasp:racional_atrair_f_s_de_top_gear_09db297f ;
+    kgrasp:pertenceADimensao kgrasp:Marketing .
+
+kgrasp:decisao_pay_to_play_em_shooter_online_cb56b5e0 a kgrasp:Decisao ;
+    rdfs:label "Pay-to-Play em Shooter Online"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_sucesso_moderado_e_est_vel_na_steam_869d5cfa ;
+    kgrasp:justificadaPor kgrasp:racional_diferencial_em_rela_o_aos_f2p_cheios_de_a98d5af1 ;
+    kgrasp:pertenceADimensao kgrasp:Marketing .
+
+kgrasp:decisao_quebra_cabe_as_com_tema_viking_99e60a6f a kgrasp:Decisao ;
+    rdfs:label "Quebra-cabeças com tema viking"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_gameplay_nico_e_divertido_bbeb0484 ;
+    kgrasp:justificadaPor kgrasp:racional_inovar_em_subg_nero_de_estrat_gia_dbb6d899 ;
+    kgrasp:pertenceADimensao kgrasp:Produto .
+
+kgrasp:decisao_rpg_de_mesa_adaptado_f4549882 a kgrasp:Decisao ;
+    rdfs:label "RPG de Mesa Adaptado"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_foco_na_narrativa_e_regras_dfd2231c ;
+    kgrasp:justificadaPor kgrasp:racional_baixo_custo_de_produ_o_de_ativos_a17ca749 ;
+    kgrasp:pertenceADimensao kgrasp:Produto .
+
+kgrasp:decisao_sci_fi_souls_like_aba97744 a kgrasp:Decisao ;
+    rdfs:label "Sci-fi Souls-like"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_atra_o_de_publisher_internacional_c881faa7 ;
+    kgrasp:justificadaPor kgrasp:racional_unir_subg_neros_populares_c177ea9b ;
+    kgrasp:pertenceADimensao kgrasp:Produto .
+
+kgrasp:decisao_simulador_de_gest_o_1b1d7c5a a kgrasp:Decisao ;
+    rdfs:label "Simulador de Gestão"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_p_blico_fiel_e_mec_nicas_profundas_86326e94 ;
+    kgrasp:justificadaPor kgrasp:racional_focar_em_nicho_de_tycoon_games_2e9b48d6 ;
+    kgrasp:pertenceADimensao kgrasp:Produto .
+
+kgrasp:decisao_sistema_de_alquimia_baseado_em_misturas_75aaf713 a kgrasp:Decisao ;
+    rdfs:label "Sistema de Alquimia Baseado em Misturas"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_complexidade_interessante_para_rpgistas_841f571d ;
+    kgrasp:justificadaPor kgrasp:racional_criar_profundidade_no_sistema_de_magias_13ba438b ;
+    kgrasp:pertenceADimensao kgrasp:Desenvolvimento .
+
+kgrasp:decisao_sistema_de_tempo_real_rel_gio_9568f9b3 a kgrasp:Decisao ;
+    rdfs:label "Sistema de Tempo Real (Relógio)"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_uma_das_mec_nicas_mais_comentadas_de_202_2c13b790 ;
+    kgrasp:justificadaPor kgrasp:racional_gerar_urg_ncia_e_peso_nas_decis_es_0ecbced5 ;
+    kgrasp:pertenceADimensao kgrasp:Desenvolvimento .
+
+kgrasp:decisao_tem_tica_socioambiental_fiocruz_ff8030fc a kgrasp:Decisao ;
+    rdfs:label "Temática Socioambiental (Fiocruz)"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_relev_ncia_social_e_facilidade_de_distri_a7ba2911 ;
+    kgrasp:justificadaPor kgrasp:racional_alinhamento_com_os_objetivos_da_institui_02d1900f ;
+    kgrasp:pertenceADimensao kgrasp:Produto .
+
+kgrasp:decisao_terror_psicol_gico_em_2d_b2472ea0 a kgrasp:Decisao ;
+    rdfs:label "Terror Psicológico em 2D"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_narrativa_marcante_e_cult_following_ba1be3d1 ;
+    kgrasp:justificadaPor kgrasp:racional_foco_em_atmosfera_sobre_jumpscares_bd3d8df0 ;
+    kgrasp:pertenceADimensao kgrasp:Produto .
+
+kgrasp:decisao_testes_massivos_com_70_alunos_c672ff25 a kgrasp:Decisao ;
+    rdfs:label "Testes Massivos com 70 Alunos"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_coleta_de_dados_robusta_para_a_pesquisa_19c71d46 ;
+    kgrasp:justificadaPor kgrasp:racional_validar_a_efic_cia_pedag_gica_do_jogo_63ecaffd ;
+    kgrasp:pertenceADimensao kgrasp:Equipe .
+
+kgrasp:decisao_tower_defense_cooperativo_fcc97fd0 a kgrasp:Decisao ;
+    rdfs:label "Tower Defense Cooperativo"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_divers_o_garantida_em_feiras_como_pax_e_aab657cf ;
+    kgrasp:justificadaPor kgrasp:racional_jogo_focado_em_party_play_f5dd2215 ;
+    kgrasp:pertenceADimensao kgrasp:Equipe .
+
+kgrasp:decisao_transi_o_para_metroidvania_d864b1bf a kgrasp:Decisao ;
+    rdfs:label "Transição para Metroidvania"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_grande_aumento_na_base_de_jogadores_1acf3dab ;
+    kgrasp:justificadaPor kgrasp:racional_evoluir_a_s_rie_de_plataforma_linear_0ef0ab25 ;
+    kgrasp:pertenceADimensao kgrasp:Produto .
+
+kgrasp:decisao_transposi_o_para_produto_comercial_via_62f607ab a kgrasp:Decisao ;
+    rdfs:label "Transposição para Produto Comercial via Estrela"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_publica_o_nacional_e_sucesso_de_p_blico_ac2ee54d ;
+    kgrasp:justificadaPor kgrasp:racional_enfrentar_as_exig_ncias_de_produ_o_em_l_1e6183ba ;
+    kgrasp:pertenceADimensao kgrasp:Organizacao .
+
+kgrasp:decisao_twin_stick_shooter_3d_0abd06fc a kgrasp:Decisao ;
+    rdfs:label "Twin-stick shooter 3D"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_gr_ficos_de_alta_qualidade_5054486d ;
+    kgrasp:justificadaPor kgrasp:racional_uso_de_unreal_engine_para_fidelidade_vis_6306846c ;
+    kgrasp:pertenceADimensao kgrasp:Desenvolvimento .
+
+kgrasp:decisao_uso_de_arte_2d_simples_e35575e8 a kgrasp:Decisao ;
+    rdfs:label "Uso de Arte 2D Simples"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_estilo_visual_consistente_apesar_da_sim_c6bb8149 ;
+    kgrasp:justificadaPor kgrasp:racional_garantir_que_o_jogo_fosse_finalizado_no_b28a8f9f ;
+    kgrasp:pertenceADimensao kgrasp:Produto .
+
+kgrasp:decisao_uso_de_lei_rouanet_253aa6ff a kgrasp:Decisao ;
+    rdfs:label "Uso de Lei Rouanet"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_viabilidade_financeira_para_escopo_maior_c05f9a4e ;
+    kgrasp:justificadaPor kgrasp:racional_primeiro_jogo_brasileiro_a_usar_incentiv_028891a7 .
+
+kgrasp:decisao_uso_de_realidade_virtual_vr_para_educa_e46cf5f5 a kgrasp:Decisao ;
+    rdfs:label "Uso de Realidade Virtual (VR) para Educação"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_alto_interesse_dos_alunos_mas_desafios_9e81f197 ;
+    kgrasp:justificadaPor kgrasp:racional_aumentar_a_imers_o_e_o_engajamento_dos_a_1450fa83 ;
+    kgrasp:pertenceADimensao kgrasp:Desenvolvimento .
+
+kgrasp:decisao_vencer_o_pr_mio_playstation_talents_6afdb5ea a kgrasp:Decisao ;
+    rdfs:label "Vencer o prêmio PlayStation Talents"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_publica_o_direta_no_ps4_ad964aeb ;
+    kgrasp:justificadaPor kgrasp:racional_conseguir_suporte_da_sony_49bf52c7 .
+
+kgrasp:impacto_alta_aceita_o_em_escolas_78f15ccb a kgrasp:Impacto ;
+    rdfs:label "Alta aceitação em escolas."@pt .
+
+kgrasp:impacto_alta_fidelidade_de_p_blico_2a65b73b a kgrasp:Impacto ;
+    rdfs:label "Alta fidelidade de público."@pt .
+
+kgrasp:impacto_alto_interesse_dos_alunos_mas_desafios_9e81f197 a kgrasp:Impacto ;
+    rdfs:label "Alto interesse dos alunos, mas desafios com enjôo (motion sickness)."@pt .
+
+kgrasp:impacto_atmosfera_imersiva_que_contribui_para_o_d294b988 a kgrasp:Impacto ;
+    rdfs:label "Atmosfera imersiva que contribui para o tema."@pt .
+
+kgrasp:impacto_atra_o_de_publisher_internacional_c881faa7 a kgrasp:Impacto ;
+    rdfs:label "Atração de publisher internacional."@pt .
+
+kgrasp:impacto_boa_recep_o_mas_com_compara_es_com_o_1fd4a0bd a kgrasp:Impacto ;
+    rdfs:label "Boa recepção, mas com comparações com o antecessor."@pt .
+
+kgrasp:impacto_coleta_de_dados_robusta_para_a_pesquisa_19c71d46 a kgrasp:Impacto ;
+    rdfs:label "Coleta de dados robusta para a pesquisa acadêmica."@pt .
+
+kgrasp:impacto_complexidade_interessante_para_rpgistas_841f571d a kgrasp:Impacto ;
+    rdfs:label "Complexidade interessante para RPGistas."@pt .
+
+kgrasp:impacto_comunidade_engajada_e_recursos_garantido_04ec8435 a kgrasp:Impacto ;
+    rdfs:label "Comunidade engajada e recursos garantidos."@pt .
+
+kgrasp:impacto_comunidade_internacional_ativa_por_anos_23349917 a kgrasp:Impacto ;
+    rdfs:label "Comunidade internacional ativa por anos."@pt .
+
+kgrasp:impacto_controle_total_sobre_a_ip_e6df6b34 a kgrasp:Impacto ;
+    rdfs:label "Controle total sobre a IP."@pt .
+
+kgrasp:impacto_dezenas_de_milh_es_de_downloads_baafba5a a kgrasp:Impacto ;
+    rdfs:label "Dezenas de milhões de downloads."@pt .
+
+kgrasp:impacto_diferencial_de_mercado_63287dcb a kgrasp:Impacto ;
+    rdfs:label "Diferencial de mercado."@pt .
+
+kgrasp:impacto_divers_o_garantida_em_feiras_como_pax_e_aab657cf a kgrasp:Impacto ;
+    rdfs:label "Diversão garantida em feiras como PAX e BGS."@pt .
+
+kgrasp:impacto_divisor_de_guas_na_cr_tica_10a9ec4e a kgrasp:Impacto ;
+    rdfs:label "Divisor de águas na crítica."@pt .
+
+kgrasp:impacto_escopo_reduzido_e_foco_em_mec_nica_princ_79cdeecc a kgrasp:Impacto ;
+    rdfs:label "Escopo reduzido e foco em mecânica principal."@pt .
+
+kgrasp:impacto_estilo_visual_consistente_apesar_da_sim_c6bb8149 a kgrasp:Impacto ;
+    rdfs:label "Estilo visual consistente, apesar da simplicidade."@pt .
+
+kgrasp:impacto_evolu_o_do_prot_tipo_acad_mico_para_pro_b68c3b65 a kgrasp:Impacto ;
+    rdfs:label "Evolução do protótipo acadêmico para produto comercial."@pt .
+
+kgrasp:impacto_facilidade_em_portar_para_mobile_cef644cd a kgrasp:Impacto ;
+    rdfs:label "Facilidade em portar para mobile."@pt .
+
+kgrasp:impacto_foco_na_narrativa_e_regras_dfd2231c a kgrasp:Impacto ;
+    rdfs:label "Foco na narrativa e regras."@pt .
+
+kgrasp:impacto_forte_apelo_nost_lgico_e_marketing_espon_92c84d45 a kgrasp:Impacto ;
+    rdfs:label "Forte apelo nostálgico e marketing espontâneo."@pt .
+
+kgrasp:impacto_gameplay_nico_e_divertido_bbeb0484 a kgrasp:Impacto ;
+    rdfs:label "Gameplay único e divertido."@pt .
+
+kgrasp:impacto_gr_ficos_de_alta_qualidade_5054486d a kgrasp:Impacto ;
+    rdfs:label "Gráficos de alta qualidade."@pt .
+
+kgrasp:impacto_grande_aumento_na_base_de_jogadores_1acf3dab a kgrasp:Impacto ;
+    rdfs:label "Grande aumento na base de jogadores."@pt .
+
+kgrasp:impacto_jogo_aclamado_pela_cr_tica_ac2195cc a kgrasp:Impacto ;
+    rdfs:label "Jogo aclamado pela crítica."@pt .
+
+kgrasp:impacto_jogo_viciante_e_viral_6bbe606c a kgrasp:Impacto ;
+    rdfs:label "Jogo viciante e viral."@pt .
+
+kgrasp:impacto_limita_o_de_tempo_devido_ao_calend_rio_516e96f5 a kgrasp:Impacto ;
+    rdfs:label "Limitação de tempo devido ao calendário letivo."@pt .
+
+kgrasp:impacto_melhora_significativa_na_reten_o_de_con_6ad60360 a kgrasp:Impacto ;
+    rdfs:label "Melhora significativa na retenção de conhecimento."@pt .
+
+kgrasp:impacto_milh_es_de_jogadores_e_base_s_lida_para_649301b1 a kgrasp:Impacto ;
+    rdfs:label "Milhões de jogadores e base sólida para sequências."@pt .
+
+kgrasp:impacto_muito_elogiado_em_reviews_51de8de7 a kgrasp:Impacto ;
+    rdfs:label "Muito elogiado em reviews."@pt .
+
+kgrasp:impacto_narrativa_marcante_e_cult_following_ba1be3d1 a kgrasp:Impacto ;
+    rdfs:label "Narrativa marcante e cult following."@pt .
+
+kgrasp:impacto_necessidade_de_foco_absoluto_em_mec_nica_6de456a3 a kgrasp:Impacto ;
+    rdfs:label "Necessidade de foco absoluto em mecânicas core."@pt .
+
+kgrasp:impacto_p_blico_fiel_e_mec_nicas_profundas_86326e94 a kgrasp:Impacto ;
+    rdfs:label "Público fiel e mecânicas profundas."@pt .
+
+kgrasp:impacto_parceria_com_a_estrela_2eae0899 a kgrasp:Impacto ;
+    rdfs:label "Parceria com a Estrela."@pt .
+
+kgrasp:impacto_parceria_com_merge_games_b4064b53 a kgrasp:Impacto ;
+    rdfs:label "Parceria com Merge Games."@pt .
+
+kgrasp:impacto_polimento_excepcional_reconhecido_global_8fb0910b a kgrasp:Impacto ;
+    rdfs:label "Polimento excepcional reconhecido globalmente."@pt .
+
+kgrasp:impacto_profundidade_narrativa_mas_impactos_das_9dfe54d1 a kgrasp:Impacto ;
+    rdfs:label "Profundidade narrativa, mas impactos das decisões menos granulares."@pt .
+
+kgrasp:impacto_publica_o_direta_no_ps4_ad964aeb a kgrasp:Impacto ;
+    rdfs:label "Publicação direta no PS4."@pt .
+
+kgrasp:impacto_publica_o_nacional_e_sucesso_de_p_blico_ac2ee54d a kgrasp:Impacto ;
+    rdfs:label "Publicação nacional e sucesso de público."@pt .
+
+kgrasp:impacto_reconhecimento_nacional_e_internacional_9d314bb0 a kgrasp:Impacto ;
+    rdfs:label "Reconhecimento nacional e internacional."@pt .
+
+kgrasp:impacto_refinamento_das_mec_nicas_sociais_e_cria_919576ef a kgrasp:Impacto ;
+    rdfs:label "Refinamento das mecânicas sociais e criativas."@pt .
+
+kgrasp:impacto_relev_ncia_social_e_facilidade_de_distri_a7ba2911 a kgrasp:Impacto ;
+    rdfs:label "Relevância social e facilidade de distribuição institucional."@pt .
+
+kgrasp:impacto_retorno_aos_holofotes_da_m_dia_especiali_2f2bc15c a kgrasp:Impacto ;
+    rdfs:label "Retorno aos holofotes da mídia especializada."@pt .
+
+kgrasp:impacto_sucesso_comercial_est_vel_e3533587 a kgrasp:Impacto ;
+    rdfs:label "Sucesso comercial estável."@pt .
+
+kgrasp:impacto_sucesso_de_cr_tica_no_lan_amento_a7dfe494 a kgrasp:Impacto ;
+    rdfs:label "Sucesso de crítica no lançamento."@pt .
+
+kgrasp:impacto_sucesso_de_vendas_e_cr_tica_em_plataform_4adaff38 a kgrasp:Impacto ;
+    rdfs:label "Sucesso de vendas e crítica em plataformas indie."@pt .
+
+kgrasp:impacto_sucesso_internacional_imediato_37777d9b a kgrasp:Impacto ;
+    rdfs:label "Sucesso internacional imediato."@pt .
+
+kgrasp:impacto_sucesso_moderado_e_est_vel_na_steam_869d5cfa a kgrasp:Impacto ;
+    rdfs:label "Sucesso moderado e estável na Steam."@pt .
+
+kgrasp:impacto_uma_das_mec_nicas_mais_comentadas_de_202_2c13b790 a kgrasp:Impacto ;
+    rdfs:label "Uma das mecânicas mais comentadas de 2021."@pt .
+
+kgrasp:impacto_viabilidade_financeira_para_escopo_maior_c05f9a4e a kgrasp:Impacto ;
+    rdfs:label "Viabilidade financeira para escopo maior."@pt .
+
+kgrasp:impacto_visual_impressionante_para_a_poca_2c1ff659 a kgrasp:Impacto ;
+    rdfs:label "Visual impressionante para a época."@pt .
+
+kgrasp:racional_acesso_a_infraestrutura_e_mentoria_sem_c_53e2e779 a kgrasp:Racional ;
+    rdfs:label "Acesso a infraestrutura e mentoria sem custo direto."@pt .
+
+kgrasp:racional_alinhamento_com_os_objetivos_da_institui_02d1900f a kgrasp:Racional ;
+    rdfs:label "Alinhamento com os objetivos da instituição parceira."@pt .
+
+kgrasp:racional_aproveitar_sucesso_de_farmville_e_simila_51210dab a kgrasp:Racional ;
+    rdfs:label "Aproveitar sucesso de Farmville e similares."@pt .
+
+kgrasp:racional_atrair_f_s_de_top_gear_09db297f a kgrasp:Racional ;
+    rdfs:label "Atrair fãs de Top Gear."@pt .
+
+kgrasp:racional_aumentar_a_imers_o_e_o_engajamento_dos_a_1450fa83 a kgrasp:Racional ;
+    rdfs:label "Aumentar a imersão e o engajamento dos alunos com o conteúdo."@pt .
+
+kgrasp:racional_aumentar_o_tempo_de_jogo_e_rejogabilidad_b7cfb025 a kgrasp:Racional ;
+    rdfs:label "Aumentar o tempo de jogo e rejogabilidade."@pt .
+
+kgrasp:racional_baixo_custo_de_produ_o_de_ativos_a17ca749 a kgrasp:Racional ;
+    rdfs:label "Baixo custo de produção de ativos."@pt .
+
+kgrasp:racional_capacidade_de_modificar_componentes_rapi_7e96dee3 a kgrasp:Racional ;
+    rdfs:label "Capacidade de modificar componentes rapidamente com base no feedback."@pt .
+
+kgrasp:racional_conseguir_suporte_da_sony_49bf52c7 a kgrasp:Racional ;
+    rdfs:label "Conseguir suporte da Sony."@pt .
+
+kgrasp:racional_controles_simplificados_para_touch_80e32b85 a kgrasp:Racional ;
+    rdfs:label "Controles simplificados para touch."@pt .
+
+kgrasp:racional_criar_desafio_nico_de_explora_o_c099c4f3 a kgrasp:Racional ;
+    rdfs:label "Criar desafio único de exploração."@pt .
+
+kgrasp:racional_criar_profundidade_no_sistema_de_magias_13ba438b a kgrasp:Racional ;
+    rdfs:label "Criar profundidade no sistema de magias."@pt .
+
+kgrasp:racional_demonstrar_capacidade_t_cnica_da_engine_6829abb1 a kgrasp:Racional ;
+    rdfs:label "Demonstrar capacidade técnica da engine própria."@pt .
+
+kgrasp:racional_desafio_criativo_e_t_cnico_d8307a73 a kgrasp:Racional ;
+    rdfs:label "Desafio criativo e técnico."@pt .
+
+kgrasp:racional_diferencial_em_rela_o_aos_f2p_cheios_de_a98d5af1 a kgrasp:Racional ;
+    rdfs:label "Diferencial em relação aos F2P cheios de hacks."@pt .
+
+kgrasp:racional_enfrentar_as_exig_ncias_de_produ_o_em_l_1e6183ba a kgrasp:Racional ;
+    rdfs:label "Enfrentar as exigências de produção em larga escala e custos."@pt .
+
+kgrasp:racional_estimular_a_comunidade_e_modding_5e9bc821 a kgrasp:Racional ;
+    rdfs:label "Estimular a comunidade e modding."@pt .
+
+kgrasp:racional_evoluir_a_s_rie_de_plataforma_linear_0ef0ab25 a kgrasp:Racional ;
+    rdfs:label "Evoluir a série de plataforma linear."@pt .
+
+kgrasp:racional_expandir_o_universo_da_franquia_b1264be0 a kgrasp:Racional ;
+    rdfs:label "Expandir o universo da franquia."@pt .
+
+kgrasp:racional_explorar_fantasia_de_poder_e_simplicidad_ac632328 a kgrasp:Racional ;
+    rdfs:label "Explorar fantasia de poder e simplicidade."@pt .
+
+kgrasp:racional_focar_em_nicho_de_retro_gaming_481d3c37 a kgrasp:Racional ;
+    rdfs:label "Focar em nicho de retro-gaming."@pt .
+
+kgrasp:racional_focar_em_nicho_de_tycoon_games_2e9b48d6 a kgrasp:Racional ;
+    rdfs:label "Focar em nicho de \"tycoon\" games."@pt .
+
+kgrasp:racional_focar_em_one_hit_kill_e_replayability_4a3e5c5f a kgrasp:Racional ;
+    rdfs:label "Focar em \"one-hit kill\" e replayability."@pt .
+
+kgrasp:racional_focar_no_aprendizado_de_tica_atrav_s_da_b350fa45 a kgrasp:Racional ;
+    rdfs:label "Focar no aprendizado de ética através da tomada de decisão."@pt .
+
+kgrasp:racional_foco_em_atmosfera_sobre_jumpscares_bd3d8df0 a kgrasp:Racional ;
+    rdfs:label "Foco em atmosfera sobre jumpscares."@pt .
+
+kgrasp:racional_fortalecer_experi_ncia_de_arcade_9ba0f540 a kgrasp:Racional ;
+    rdfs:label "Fortalecer experiência de arcade."@pt .
+
+kgrasp:racional_fugir_do_combate_gen_rico_em_jogos_de_te_b0a85b60 a kgrasp:Racional ;
+    rdfs:label "Fugir do combate genérico em jogos de terror."@pt .
+
+kgrasp:racional_garantir_que_o_jogo_fosse_finalizado_no_b28a8f9f a kgrasp:Racional ;
+    rdfs:label "Garantir que o jogo fosse finalizado no prazo de 52h."@pt .
+
+kgrasp:racional_gerar_urg_ncia_e_peso_nas_decis_es_0ecbced5 a kgrasp:Racional ;
+    rdfs:label "Gerar urgência e peso nas decisões."@pt .
+
+kgrasp:racional_identidade_cultural_forte_b3ded4bf a kgrasp:Racional ;
+    rdfs:label "Identidade cultural forte."@pt .
+
+kgrasp:racional_inova_o_no_mercado_de_brinquedos_84d8148b a kgrasp:Racional ;
+    rdfs:label "Inovação no mercado de brinquedos."@pt .
+
+kgrasp:racional_inovar_em_subg_nero_de_estrat_gia_dbb6d899 a kgrasp:Racional ;
+    rdfs:label "Inovar em subgênero de estratégia."@pt .
+
+kgrasp:racional_jogo_focado_em_party_play_f5dd2215 a kgrasp:Racional ;
+    rdfs:label "Jogo focado em party play."@pt .
+
+kgrasp:racional_mercado_nacional_ainda_sem_publishers_co_2d30487f a kgrasp:Racional ;
+    rdfs:label "Mercado nacional ainda sem publishers consolidados."@pt .
+
+kgrasp:racional_modelo_de_neg_cio_sustent_vel_a_longo_pr_38fc95bf a kgrasp:Racional ;
+    rdfs:label "Modelo de negócio sustentável a longo prazo."@pt .
+
+kgrasp:racional_nostalgia_e_baixo_custo_de_arte_e6d4f1a0 a kgrasp:Racional ;
+    rdfs:label "Nostalgia e baixo custo de arte."@pt .
+
+kgrasp:racional_p_blico_infantil_e_necessidade_de_engaja_64b903fe a kgrasp:Racional ;
+    rdfs:label "Público infantil e necessidade de engajamento."@pt .
+
+kgrasp:racional_preencher_lacuna_de_jogos_de_plataforma_6b19c6ed a kgrasp:Racional ;
+    rdfs:label "Preencher lacuna de jogos de plataforma 90s de qualidade."@pt .
+
+kgrasp:racional_primeiro_jogo_brasileiro_a_usar_incentiv_028891a7 a kgrasp:Racional ;
+    rdfs:label "Primeiro jogo brasileiro a usar incentivo fiscal."@pt .
+
+kgrasp:racional_refletir_o_peso_das_escolhas_ticas_608ca9d2 a kgrasp:Racional ;
+    rdfs:label "Refletir o peso das escolhas éticas."@pt .
+
+kgrasp:racional_resgatar_desafio_de_jogos_nes_5b645363 a kgrasp:Racional ;
+    rdfs:label "Resgatar desafio de jogos NES."@pt .
+
+kgrasp:racional_restri_o_de_tempo_para_evento_espec_fic_9a51ac44 a kgrasp:Racional ;
+    rdfs:label "Restrição de tempo para evento específico de desenvolvimento."@pt .
+
+kgrasp:racional_revitalizar_o_interesse_no_jogo_original_e27cb15a a kgrasp:Racional ;
+    rdfs:label "Revitalizar o interesse no jogo original."@pt .
+
+kgrasp:racional_tornar_o_aprendizado_de_temas_dif_ceis_m_7d5f6208 a kgrasp:Racional ;
+    rdfs:label "Tornar o aprendizado de temas difíceis mais palatável."@pt .
+
+kgrasp:racional_unir_subg_neros_populares_c177ea9b a kgrasp:Racional ;
+    rdfs:label "Unir subgêneros populares."@pt .
+
+kgrasp:racional_uso_de_unreal_engine_para_fidelidade_vis_6306846c a kgrasp:Racional ;
+    rdfs:label "Uso de Unreal Engine para fidelidade visual."@pt .
+
+kgrasp:racional_validar_a_efic_cia_pedag_gica_do_jogo_63ecaffd a kgrasp:Racional ;
+    rdfs:label "Validar a eficácia pedagógica do jogo."@pt .
+
+kgrasp:racional_validar_o_mercado_e_garantir_verba_inici_7e119378 a kgrasp:Racional ;
+    rdfs:label "Validar o mercado e garantir verba inicial."@pt .
+
+kgrasp:racional_valor_fundamental_de_ouvir_os_jogadores_5237a91a a kgrasp:Racional ;
+    rdfs:label "Valor fundamental de ouvir os jogadores durante testes exaustivos."@pt .
+
+kgrasp:racional_valorizar_cultura_ind_gena_f2a085a3 a kgrasp:Racional ;
+    rdfs:label "Valorizar cultura indígena."@pt .
+
+kgrasp:racional_versatilidade_e_suporte_multiplataforma_64f0de54 a kgrasp:Racional ;
+    rdfs:label "Versatilidade e suporte multiplataforma."@pt .
+
+kgrasp:decisao_autopublica_o_77767dcd a kgrasp:Decisao ;
+    rdfs:label "Autopublicação"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_controle_total_sobre_a_ip_e6df6b34 ;
+    kgrasp:justificadaPor kgrasp:racional_mercado_nacional_ainda_sem_publishers_co_2d30487f ;
+    kgrasp:pertenceADimensao kgrasp:Marketing .
+
+kgrasp:decisao_desenvolvimento_em_48h_game_jam_6ee24010 a kgrasp:Decisao ;
+    rdfs:label "Desenvolvimento em 48h (Game Jam)"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_escopo_reduzido_e_foco_em_mec_nica_princ_79cdeecc ;
+    kgrasp:justificadaPor kgrasp:racional_desafio_criativo_e_t_cnico_d8307a73 ;
+    kgrasp:pertenceADimensao kgrasp:Organizacao .
+
+kgrasp:decisao_escuta_ativa_nos_testes_99a69260 a kgrasp:Decisao ;
+    rdfs:label "Escuta Ativa nos Testes"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_refinamento_das_mec_nicas_sociais_e_cria_919576ef ;
+    kgrasp:justificadaPor kgrasp:racional_valor_fundamental_de_ouvir_os_jogadores_5237a91a ;
+    kgrasp:pertenceADimensao kgrasp:Equipe .
+
+kgrasp:decisao_foco_em_time_management_efc83903 a kgrasp:Decisao ;
+    rdfs:label "Foco em Time Management"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_sucesso_comercial_est_vel_e3533587 ;
+    kgrasp:justificadaPor kgrasp:racional_aproveitar_sucesso_de_farmville_e_simila_51210dab ;
+    kgrasp:pertenceADimensao kgrasp:Produto .
+
+kgrasp:decisao_gamifica_o_de_matem_tica_6cedf8cc a kgrasp:Decisao ;
+    rdfs:label "Gamificação de Matemática"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_alta_aceita_o_em_escolas_78f15ccb ;
+    kgrasp:justificadaPor kgrasp:racional_p_blico_infantil_e_necessidade_de_engaja_64b903fe ;
+    kgrasp:pertenceADimensao kgrasp:Produto .
+
+kgrasp:decisao_integra_o_f_sico_digital_9858f9e3 a kgrasp:Decisao ;
+    rdfs:label "Integração Físico-Digital"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_parceria_com_a_estrela_2eae0899 ;
+    kgrasp:justificadaPor kgrasp:racional_inova_o_no_mercado_de_brinquedos_84d8148b ;
+    kgrasp:pertenceADimensao kgrasp:Desenvolvimento .
+
+kgrasp:decisao_itera_o_r_pida_de_prot_tipos_deef2b0f a kgrasp:Decisao ;
+    rdfs:label "Iteração Rápida de Protótipos"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_evolu_o_do_prot_tipo_acad_mico_para_pro_b68c3b65 ;
+    kgrasp:justificadaPor kgrasp:racional_capacidade_de_modificar_componentes_rapi_7e96dee3 ;
+    kgrasp:pertenceADimensao kgrasp:Desenvolvimento .
+
+kgrasp:decisao_mec_nica_de_predador_marinho_8007aa47 a kgrasp:Decisao ;
+    rdfs:label "Mecânica de Predador Marinho"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_jogo_viciante_e_viral_6bbe606c ;
+    kgrasp:justificadaPor kgrasp:racional_explorar_fantasia_de_poder_e_simplicidad_ac632328 ;
+    kgrasp:pertenceADimensao kgrasp:Produto .
+
+kgrasp:decisao_uso_de_unity_6a10f1bd a kgrasp:Decisao ;
+    rdfs:label "Uso de Unity"@pt ;
+    kgrasp:gerouImpacto kgrasp:impacto_facilidade_em_portar_para_mobile_cef644cd ;
+    kgrasp:justificadaPor kgrasp:racional_versatilidade_e_suporte_multiplataforma_64f0de54 ;
+    kgrasp:pertenceADimensao kgrasp:Desenvolvimento .
+

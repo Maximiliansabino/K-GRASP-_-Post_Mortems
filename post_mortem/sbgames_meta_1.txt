@@ -1,0 +1,96 @@
+Projeto: Insect
+Decisão: Autopublicação
+Especialista: Ferreira Júnior
+Dimensão: Marketing
+Racional: Mercado nacional ainda sem publishers consolidados.
+Impacto: Controle total sobre a IP.
+
+---
+Projeto: Super Fluffy Force
+Decisão: Uso de Unity
+Especialista: Fuchter
+Dimensão: Desenvolvimento
+Racional: Versatilidade e suporte multiplataforma.
+Impacto: Facilidade em portar para mobile.
+
+---
+Projeto: OlymPlanets
+Decisão: Desenvolvimento em 48h (Game Jam)
+Especialista: Lacerda
+Dimensão: Organização
+Racional: Desafio criativo e técnico.
+Impacto: Escopo reduzido e foco em mecânica principal.
+
+---
+Projeto: Pequenos Monstros
+Decisão: Gamificação de Matemática
+Especialista: Marcondes
+Dimensão: Produto
+Racional: Público infantil e necessidade de engajamento.
+Impacto: Alta aceitação em escolas.
+
+---
+Projeto: HueShark
+Decisão: Mecânica de Predador Marinho
+Especialista: Carvalho
+Dimensão: Produto
+Racional: Explorar fantasia de poder e simplicidade.
+Impacto: Jogo viciante e viral.
+
+---
+Projeto: Fruits Inc
+Decisão: Foco em Time Management
+Especialista: Caraciolo
+Dimensão: Produto
+Racional: Aproveitar sucesso de Farmville e similares.
+Impacto: Sucesso comercial estável.
+
+---
+Projeto: Jaguareté de Bolso
+Decisão: RPG de Mesa Adaptado
+Dimensão: Produto
+Racional: Baixo custo de produção de ativos.
+Impacto: Foco na narrativa e regras.
+
+---
+Projeto: Cobra-Canoa
+Decisão: Jogo de Memória Temático
+Dimensão: Produto
+Racional: Valorizar cultura indígena.
+Impacto: Diferencial de mercado.
+
+---
+Projeto: ToteMonstros
+Decisão: Integração Físico-Digital
+Especialista: Daniel Martins
+Dimensão: Desenvolvimento
+Racional: Inovação no mercado de brinquedos.
+Impacto: Parceria com a Estrela.
+
+---
+Projeto: Chroma Squad
+Decisão: Campanha de Financiamento Coletivo
+Dimensão: Recursos
+Racional: Validar o mercado e garantir verba inicial.
+Impacto: Comunidade engajada e recursos garantidos.
+
+---
+Projeto: Knights of Pen & Paper
+Decisão: Estética Pixel Art
+Dimensão: Produto
+Racional: Nostalgia e baixo custo de arte.
+Impacto: Sucesso internacional imediato.
+
+---
+Projeto: Dandara
+Decisão: Movimentação sem gravidade
+Dimensão: Desenvolvimento
+Racional: Criar desafio único de exploração.
+Impacto: Jogo aclamado pela crítica.
+
+---
+Projeto: Horizon Chase
+Decisão: Parceria com Compositor Barry Leitch
+Dimensão: Marketing
+Racional: Atrair fãs de Top Gear.
+Impacto: Forte apelo nostálgico e marketing espontâneo.

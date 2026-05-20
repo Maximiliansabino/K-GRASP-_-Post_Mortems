@@ -1,0 +1,28 @@
+# CQ-01: Qual foi o racional por trás das decisões no projeto X?
+# What was the rationale behind decisions in project X?
+#
+# Usage: replace the FILTER value "X" with the project name (partial match, case-insensitive).
+
+PREFIX kgrasp: <http://cos.ufrj.br/kgrasp/games#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?projeto ?decisao ?descDecisao ?racional ?descRacional ?dimensao
+WHERE {
+    ?projeto      a kgrasp:Projeto ;
+                  rdfs:label ?nomeProjeto .
+
+    ?projeto      kgrasp:conteveDecisao ?decisao .
+    ?decisao      rdfs:label ?descDecisao .
+
+    ?decisao      kgrasp:justificadaPor ?racional .
+    ?racional     rdfs:label ?descRacional .
+
+    OPTIONAL {
+        ?decisao  kgrasp:pertenceADimensao ?dimInst .
+        ?dimInst  rdfs:label ?dimensao .
+    }
+
+    # Substitua "X" pelo nome (ou trecho do nome) do projeto desejado
+    FILTER ( CONTAINS( LCASE( STR(?nomeProjeto) ), LCASE("X") ) )
+}
+ORDER BY ?projeto ?decisao

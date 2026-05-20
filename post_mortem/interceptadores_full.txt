@@ -1,0 +1,19 @@
+Projeto: Interceptadores
+---
+Decisão: Uso de Realidade Virtual (VR) para Educação
+Dimensão: Desenvolvimento
+Racional: Aumentar a imersão e o engajamento dos alunos com o conteúdo.
+Impacto: Alto interesse dos alunos, mas desafios com enjôo (motion sickness).
+
+---
+Decisão: Testes Massivos com 70 Alunos
+Dimensão: Equipe
+Racional: Validar a eficácia pedagógica do jogo.
+Impacto: Coleta de dados robusta para a pesquisa acadêmica.
+
+---
+Decisão: Foco em Gamificação de Conteúdo Complexo
+Dimensão: Produto
+Racional: Tornar o aprendizado de temas difíceis mais palatável.
+Impacto: Melhora significativa na retenção de conhecimento.
+ Maryland.

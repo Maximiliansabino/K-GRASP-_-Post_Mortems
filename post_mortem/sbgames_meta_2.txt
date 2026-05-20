@@ -1,0 +1,90 @@
+Projeto: Toren
+Decisão: Uso de Lei Rouanet
+Dimensão: Recursos
+Racional: Primeiro jogo brasileiro a usar incentivo fiscal.
+Impacto: Viabilidade financeira para escopo maior.
+
+---
+Projeto: Odallus
+Decisão: Homenagem aos 8-bits
+Dimensão: Produto
+Racional: Focar em nicho de retro-gaming.
+Impacto: Alta fidelidade de público.
+
+---
+Projeto: Blazing Chrome
+Decisão: Co-op Local
+Dimensão: Produto
+Racional: Fortalecer experiência de arcade.
+Impacto: Muito elogiado em reviews.
+
+---
+Projeto: Oniken
+Decisão: Dificuldade Elevada
+Dimensão: Produto
+Racional: Resgatar desafio de jogos NES.
+Impacto: Divisor de águas na crítica.
+
+---
+Projeto: Aritana
+Decisão: Mitologia Tupi-Guarani
+Dimensão: Produto
+Racional: Identidade cultural forte.
+Impacto: Reconhecimento nacional e internacional.
+
+---
+Projeto: Momodora
+Decisão: Transição para Metroidvania
+Dimensão: Produto
+Racional: Evoluir a série de plataforma linear.
+Impacto: Grande aumento na base de jogadores.
+
+---
+Projeto: Holomenace
+Decisão: Gráficos 3D em Shmup
+Dimensão: Desenvolvimento
+Racional: Demonstrar capacidade técnica da engine própria.
+Impacto: Visual impressionante para a época.
+
+---
+Projeto: Akane
+Decisão: Loop de Gameplay Curto
+Dimensão: Produto
+Racional: Focar em "one-hit kill" e replayability.
+Impacto: Sucesso de vendas e crítica em plataformas indie.
+
+---
+Projeto: Distraint
+Decisão: Terror Psicológico em 2D
+Dimensão: Produto
+Racional: Foco em atmosfera sobre jumpscares.
+Impacto: Narrativa marcante e cult following.
+
+---
+Projeto: Sparklite
+Decisão: Elementos Roguelite
+Dimensão: Produto
+Racional: Aumentar o tempo de jogo e rejogabilidade.
+Impacto: Parceria com Merge Games.
+
+---
+Projeto: Unsighted
+Decisão: Sistema de Tempo Real (Relógio)
+Dimensão: Desenvolvimento
+Racional: Gerar urgência e peso nas decisões.
+Impacto: Uma das mecânicas mais comentadas de 2021.
+
+---
+Projeto: Kaze and the Wild Masks
+Decisão: Inspiração em Donkey Kong Country
+Dimensão: Produto
+Racional: Preencher lacuna de jogos de plataforma 90s de qualidade.
+Impacto: Polimento excepcional reconhecido globalmente.
+
+---
+Projeto: Fobia - St. Dinfna Hotel
+Decisão: Foco em Puzzles e Exploração
+Dimensão: Produto
+Racional: Fugir do combate genérico em jogos de terror.
+Impacto: Sucesso de crítica no lançamento.
+ Maryland.

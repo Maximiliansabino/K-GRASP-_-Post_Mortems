@@ -1,0 +1,123 @@
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:    <http://www.w3.org/2002/07/owl#> .
+@prefix kgrasp: <http://cos.ufrj.br/kgrasp/games#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+
+# ============================================================
+# Ontology Declaration
+# ============================================================
+
+<http://cos.ufrj.br/kgrasp/games>
+    a owl:Ontology ;
+    rdfs:label   "K-GRASP Games Ontology"@pt ;
+    rdfs:comment "Ontologia para captura de conhecimento em projetos de jogos digitais, focada em decisões arquiteturais e seus racionais."@pt .
+
+# ============================================================
+# Classes
+# ============================================================
+
+kgrasp:Projeto
+    a owl:Class ;
+    rdfs:label   "Projeto"@pt ;
+    rdfs:comment "Projeto de desenvolvimento de jogo digital que é o contexto da análise post-mortem."@pt .
+
+kgrasp:Especialista
+    a owl:Class ;
+    rdfs:label   "Especialista"@pt ;
+    rdfs:comment "Profissional ou membro da equipe que tomou ou participou de decisões no projeto."@pt .
+
+kgrasp:Decisao
+    a owl:Class ;
+    rdfs:label   "Decisão"@pt ;
+    rdfs:comment "Decisão tomada durante o desenvolvimento do projeto, capturada no post-mortem."@pt .
+
+kgrasp:Racional
+    a owl:Class ;
+    rdfs:label   "Racional"@pt ;
+    rdfs:comment "Justificativa ou raciocínio por trás de uma decisão."@pt .
+
+kgrasp:Impacto
+    a owl:Class ;
+    rdfs:label   "Impacto"@pt ;
+    rdfs:comment "Efeito ou consequência de uma decisão no projeto ou produto."@pt .
+
+kgrasp:Dimensao
+    a owl:Class ;
+    rdfs:label   "Dimensão"@pt ;
+    rdfs:comment "Dimensão ou área temática à qual uma decisão ou impacto se refere."@pt .
+
+# ============================================================
+# Object Properties
+# ============================================================
+
+kgrasp:conteveDecisao
+    a owl:ObjectProperty ;
+    rdfs:label   "conteve decisão"@pt ;
+    rdfs:comment "Relaciona um Projeto com as Decisões tomadas durante seu desenvolvimento."@pt ;
+    rdfs:domain  kgrasp:Projeto ;
+    rdfs:range   kgrasp:Decisao .
+
+kgrasp:tomouDecisao
+    a owl:ObjectProperty ;
+    rdfs:label   "tomou decisão"@pt ;
+    rdfs:comment "Relaciona um Especialista com as Decisões que tomou."@pt ;
+    rdfs:domain  kgrasp:Especialista ;
+    rdfs:range   kgrasp:Decisao .
+
+kgrasp:justificadaPor
+    a owl:ObjectProperty ;
+    rdfs:label   "justificada por"@pt ;
+    rdfs:comment "Relaciona uma Decisão com seu Racional (justificativa)."@pt ;
+    rdfs:domain  kgrasp:Decisao ;
+    rdfs:range   kgrasp:Racional .
+
+kgrasp:gerouImpacto
+    a owl:ObjectProperty ;
+    rdfs:label   "gerou impacto"@pt ;
+    rdfs:comment "Relaciona uma Decisão com o Impacto que gerou no projeto."@pt ;
+    rdfs:domain  kgrasp:Decisao ;
+    rdfs:range   kgrasp:Impacto .
+
+kgrasp:pertenceADimensao
+    a owl:ObjectProperty ;
+    rdfs:label   "pertence à dimensão"@pt ;
+    rdfs:comment "Relaciona uma Decisão ou Impacto com a Dimensão temática correspondente."@pt ;
+    rdfs:domain  [
+        owl:unionOf ( kgrasp:Decisao kgrasp:Impacto )
+    ] ;
+    rdfs:range   kgrasp:Dimensao .
+
+# ============================================================
+# Fixed Dimensao Instances (6 canonical dimensions)
+# ============================================================
+
+kgrasp:Produto
+    a kgrasp:Dimensao ;
+    rdfs:label   "Produto"@pt ;
+    rdfs:comment "Dimensão relacionada ao produto final, mecânicas e design do jogo."@pt .
+
+kgrasp:Organizacao
+    a kgrasp:Dimensao ;
+    rdfs:label   "Organização"@pt ;
+    rdfs:comment "Dimensão relacionada à estrutura organizacional, processos e gestão."@pt .
+
+kgrasp:Desenvolvimento
+    a kgrasp:Dimensao ;
+    rdfs:label   "Desenvolvimento"@pt ;
+    rdfs:comment "Dimensão relacionada ao processo técnico de desenvolvimento de software."@pt .
+
+kgrasp:Equipe
+    a kgrasp:Dimensao ;
+    rdfs:label   "Equipe"@pt ;
+    rdfs:comment "Dimensão relacionada à equipe, habilidades e dinâmicas interpessoais."@pt .
+
+kgrasp:Recurso
+    a kgrasp:Dimensao ;
+    rdfs:label   "Recurso"@pt ;
+    rdfs:comment "Dimensão relacionada a recursos financeiros, de tempo e materiais."@pt .
+
+kgrasp:Marketing
+    a kgrasp:Dimensao ;
+    rdfs:label   "Marketing"@pt ;
+    rdfs:comment "Dimensão relacionada a estratégias de marketing, divulgação e alcance de mercado."@pt .
